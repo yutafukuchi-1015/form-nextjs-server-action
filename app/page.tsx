@@ -1,5 +1,4 @@
-import Image from "next/image";
-import HomePage from "./HomePage";
+import HomePage from "@/features/root/HomePage";
 
 export default function Home() {
   return (
