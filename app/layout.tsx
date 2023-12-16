@@ -19,7 +19,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <StyledComponentsRegistry>
-          <div className="mt-10">{children}</div>
+          <div className="flex justify-between">
+            <div className=""></div>
+            <div className="basis-2/4">{children}</div>
+            <div className=""></div>
+          </div>
         </StyledComponentsRegistry>
       </body>
     </html>
